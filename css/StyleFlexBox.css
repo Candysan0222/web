@@ -1,0 +1,249 @@
+body{
+    margin: 0px;
+}
+.PRINCIPIO{
+    height: 80px;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    border-bottom:  black 1px solid;
+    
+}
+.PRINCIPIO > div:first-child{
+    width: 30%;
+    justify-content: center;
+    display: flex;
+}
+.PRINCIPIO > div:last-child{
+    width: 70%;
+}
+.MENU {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 30px;
+}
+.MENU > li {
+    margin: 0px 20px;
+    justify-content: space-around;
+}
+
+.MENU > li > a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 600ms;
+    text-decoration:none;
+
+}
+
+.MENU >li > a:hover{
+    color: rgb(211, 207, 0);
+}
+
+.FLEX{
+    display: flex;
+}
+
+/*REVISE AQUI*/
+.INFO_SECTION{
+    width: 50%;
+    background-color:blanchedalmond;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: center;
+}
+.INFO_SECTION.FLEX{
+    flex-direction: column;
+}
+.INFO_SECTION > h1 {
+    color: black;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.INFO_SECTION > h6 {
+    align-content: flex-start;
+    margin-top: 5px;
+    color: black;
+}
+section > div.IMG{
+    width: 50%;
+    text-align: center;
+    background-color:blanchedalmond;
+}
+
+/*FINALIZA EL INICIO*/
+
+
+article.FLEX > div{
+    width: 25%;
+    height: 150px;
+    border-left: black 1px solid;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+
+}
+article.FLEX {
+    background-color:blanchedalmond;
+    justify-content: space-evenly;
+    color: black;
+
+}
+article.FLEX > div > h5{
+    margin-bottom: 5px;
+}
+
+article.FLEX > div > h3{
+    margin-top: 5px;
+}
+
+
+
+aside{
+    background-color:blanchedalmond;
+    color: black;
+}
+aside > div > div:first-child{
+    height: 150px;
+   border: black 1px solid;
+}
+aside > div > div:first-child > *{
+    text-align: center;
+    padding: 0px 10%;
+}
+
+
+aside > div:last-child{
+    height: 33%;
+    
+}
+
+aside > div:last-child > div:first-child{
+    width:50%;
+    border: black 1px solid ;
+
+}
+
+aside > div:last-child > div{
+    width: 30%;
+    border: black 1px solid;
+    text-align: center;
+}
+
+.FLEX-LISTA{
+    display: flex;
+    justify-content: space-around;
+    border: black 1px solid;
+}
+
+div > header > h1{
+    text-align: center;
+    
+}
+
+.FLEX-LISTA > div:first-child{
+    width: 50%;
+    border-right: black 1px solid;
+}
+
+.FLEX-LISTA > div:last-child{
+    background-color: rgb(228, 205, 255);
+    width: 50%;
+    align-self: center;
+}
+
+
+
+.FLEX-LISTA > div > aside{
+    display: flex;
+}   
+
+
+
+/*FINALIZACION*/
+
+/*INICIO INTOCABLES*/
+.SIXPART{
+    display: flex;
+    background-color: azure;
+    height: 500px;
+}
+
+.SIXPART > article > div > h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+cuadrado{
+    display: flex;
+    padding: 0px 20%;
+}
+cuadrado > img{
+    padding: 10px;
+}
+cuadrado > p{
+    padding-left: 50px;
+    text-align: justify;
+}
+
+article > botones{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.SIXPART button{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+/*FINALIZACION
+
+INICO NUEVA PARTE*/
+
+indicador{
+    display: flex;
+    background-color: aquamarine;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+/*Otra parte , fondo futurista*/
+
+slide{
+    background-image: url("../png/futurista.png");
+    height: 400px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+
+info{
+    display: flex;
+    padding: 5% 0px;
+    background-color: blueviolet;
+}
+
+info>div{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 3%;
+}
+
+info > div:last-child{
+    justify-content: start;
+}
+
+info > div > section {
+    background-color: blueviolet;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
